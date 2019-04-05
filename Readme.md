@@ -3,7 +3,7 @@
 
 * [Employees.cs](./CS/DXTreeList_Totals/Employees.cs) (VB: [Employees.vb](./VB/DXTreeList_Totals/Employees.vb))
 * [MainWindow.xaml](./CS/DXTreeList_Totals/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DXTreeList_Totals/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/DXTreeList_Totals/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/DXTreeList_Totals/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/DXTreeList_Totals/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DXTreeList_Totals/MainWindow.xaml.vb))
 <!-- default file list end -->
 # Calculating Totals
 

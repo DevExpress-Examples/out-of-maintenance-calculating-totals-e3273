@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System.Windows
+﻿Imports System.Windows
 Imports DevExpress.Data
 Imports DevExpress.Xpf.Grid
 
@@ -9,6 +8,7 @@ Namespace DXTreeList_Totals
 	''' </summary>
 	Partial Public Class MainWindow
 		Inherits Window
+
 		Public Sub New()
 			InitializeComponent()
 			treeListControl1.ItemsSource = Stuff.GetStuff()
@@ -19,7 +19,11 @@ Namespace DXTreeList_Totals
 		End Sub
 
 		Private Sub CreateTotal(ByVal fieldName As String, ByVal summaryType As SummaryItemType)
-			Dim total As New TreeListSummaryItem() With {.FieldName = fieldName, .SummaryType = summaryType, .ShowInColumn = fieldName}
+			Dim total As New TreeListSummaryItem() With {
+				.FieldName = fieldName,
+				.SummaryType = summaryType,
+				.ShowInColumn = fieldName
+			}
 			treeListControl1.TotalSummary.Add(total)
 		End Sub
 	End Class

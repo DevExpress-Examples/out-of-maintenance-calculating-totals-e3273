@@ -4,7 +4,7 @@
         Title="MainWindow" Height="350" Width="525"
         xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid">
     <Grid>
-        <dxg:TreeListControl Name="treeListControl1" AutoPopulateColumns="True">
+        <dxg:TreeListControl Name="treeListControl1" AutoGenerateColumns="AddNew">
             <dxg:TreeListControl.View>
                 <dxg:TreeListView Name="treeListView1" AutoWidth="True"
                                   KeyFieldName="ID" ParentFieldName="ParentID"

@@ -4,15 +4,12 @@ Imports DevExpress.Xpf.Grid
 
 Namespace DXTreeList_Totals
 
-    ''' <summary>
-    ''' Interaction logic for MainWindow.xaml
-    ''' </summary>
     Public Partial Class MainWindow
         Inherits System.Windows.Window
 
         Public Sub New()
             Me.InitializeComponent()
-            Me.treeListControl1.ItemsSource = DXTreeList_Totals.Stuff.GetStuff()
+            Me.treeListControl1.ItemsSource = DXTreeList_Totals.Staff.GetStaff()
             Me.treeListControl1.View.ExpandAllNodes()
             Me.CreateTotal("Age", DevExpress.Data.SummaryItemType.Min)
             Me.CreateTotal("Age", DevExpress.Data.SummaryItemType.Max)
